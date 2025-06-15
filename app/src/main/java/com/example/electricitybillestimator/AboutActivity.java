@@ -15,7 +15,7 @@ public class AboutActivity extends AppCompatActivity {
 
         TextView link = findViewById(R.id.textViewLink);
         link.setOnClickListener(v -> {
-            String url = "https://github.com/yourusername/your-repo"; // replace this
+            String url = "https://github.com/Ferhad-1/IndividualAssignment_ElectricityBillApps"; // replace this
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(intent);
         });
